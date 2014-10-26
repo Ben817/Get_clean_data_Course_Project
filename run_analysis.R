@@ -48,8 +48,10 @@ final_df <- total_df[,total_indices,with=FALSE] #Use with=FALSE since it is a da
 final_df_melt <- melt(final_df,id=c("Subject","Activity_label")) #Melt the final_df
 FINAL <- dcast(final_df_melt,Subject+Activity_label~variable,mean)
 
-###### Add the meanof
+###### Add the meanof to the colnames to make them different from the original values
 new_colnames <- c("Subject","Activity",paste0("meanof_",colnames(FINAL)[3:ncol(FINAL)]))
 colnames(FINAL) <- new_colnames
+
+###### WRITE THE RESULT TO THE FILE FINAL.TXT THAT WILL BE PLACED IN THE WORKING DIRECTORY.
                   
 write.table(x = FINAL,file = "FINAL.txt",row.names = FALSE)

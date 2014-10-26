@@ -21,7 +21,7 @@ These two data.frames are then together into one large data.frame containing all
 
 In the next step the total_df data.frame is reduced into a smaller data.frame with less columns. Only the columns containg the word "mean" and "std" are kept as well as "Subject" and "Activity" column. These columns are stored in a smaller data.frame called **final_df**.
 
-In the last step the final_df is divided into data per Subject and Activity and then the mean of the variables are calculated and stored in the data.frame called **FINAL**.
+In the last step the final_df is divided into data per Subject and Activity and then the mean of the variables are calculated and stored in the data.frame called **FINAL**. This data frame is then exported into a file called **FINAL.txt** that will be placed in the working directory.
 
 ###HOW TO USE
 First, put the data files and the **run_analysis.R** in the working directory.
