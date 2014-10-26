@@ -10,7 +10,7 @@ activityrecognition@smartlab.ws.
 www.smartlab.ws. 
 
 
-#DESCRIPTION
+###DESCRIPTION
 This script is combining data from several files in this data set into one single data.frame. Then an average is calculated on subset of this data frame.
 
 The **X_train.txt** and **X_test.txt** imported to separate data.frames in R. The column names in these two data.frames are added from the file **features.txt**.
@@ -23,7 +23,7 @@ In the next step the total_df data.frame is reduced into a smaller data.frame wi
 
 In the last step the final_df is divided into data per Subject and Activity and then the mean of the variables are calculated and stored in the data.frame called **FINAL**.
 
-#HOW TO USE
+###HOW TO USE
 First, put the data files and the **run_analysis.R** in the working directory.
 Then, run the file **run_analysis.R**.
 This will produce a file called FINAL.txt containing the calculated mean for the subsetted variables, per Subject and Activity.
