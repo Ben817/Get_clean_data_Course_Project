@@ -1,4 +1,6 @@
-Get_clean_data_Course_Project
+Codebook for Course Project
 =============================
 
-Coursera course "Getting and Cleaning Data"
+The result of the run_analysis.R script is a file called FINAL.txt.
+The columns in this file are listed below.
+The column *Subject contains
