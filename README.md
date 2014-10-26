@@ -11,9 +11,9 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws.
 www.smartlab.ws. 
 
-The **training** and **test** data sets are put together into one large data.frame containing all data. This data frame is called **total_df** in the script.
+The **X_train.txt** and **X_test.txt** imported to separate data.frames in R. Two columns are  added to data.frames. One column with **Subject**, which is what person that was holding the handset. There are 30 different persons and each is represented with one identification number in the column Subject. Also, a column containg the **Activity** that the person performed is added. This column contains 6 different activities. Activity label is picked from the file **activity_labels.txt**, which provides a mapping between the 6 different activity id's to a label(WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING).
 
-Two columns are then added to total_df. One column with **Subject**, which is what person that was holding the handset. There are 30 different persons and each is represented with one identification number in the column Subject. Also, a column containg the **Activity** that the person performed. This column contains 6 different activities. Activity label is picked from the file **activity_labels.txt**, which provides a mapping between the 6 different activity id's to a label.
+These two data.frames are then together into one large data.frame containing all data. This data frame is called **total_df** in the script.
 
 In the next step the total_df data.frame is reduced into a smaller data.frame with less columns. Only the columns containg the word "mean" and "std" are kept together with "Subject" and "Activity" column. These data is stored in a smaller data.frame called **final_df**.
 
