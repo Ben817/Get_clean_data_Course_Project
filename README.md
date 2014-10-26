@@ -1,6 +1,8 @@
 Course Project
 =============================
-####The script called run_analysis.R takes a number of files from the Samsung data set accelerometer data from the  Human Activity Recognition Using Smartphones Dataset Version 1.0. 
+
+The script called run_analysis.R takes a number of files from the Samsung data set accelerometer data from the  Human Activity Recognition Using Smartphones Dataset Version 1.0. 
+
 This data set comes from:
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory

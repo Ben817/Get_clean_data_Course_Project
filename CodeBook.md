@@ -10,9 +10,9 @@ The column *Activity* contains what activity that the person performed.
 The columns starting with *meanof_* contains the mean of the corresponding variable. For example for *meanof_fBodyBodyGyroJerkMag-std()* contains that mean of the parameter fBodyBodyGyroJerkMag-std() parameter.
 
 The following columns are included in the data set FINAL:
-*Subject
-*Activity
-*meanof_tBodyAcc-mean()-X
+* Subject
+* Activity
+* meanof_tBodyAcc-mean()-X
 meanof_tBodyAcc-mean()-Y
 meanof_tBodyAcc-mean()-Z
 meanof_tGravityAcc-mean()-X
