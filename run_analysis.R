@@ -3,7 +3,7 @@ library(reshape)
 library(reshape2)
 ##### LOAD ALL THE FILES ######
 #Here both the test data and training data are loaded
-features <- read.table(file="UCI HAR Dataset/features.txt",header=F,sep="") #Loading  the feature names
+features <- read.table(file="features.txt",header=F,sep="") #Loading  the feature names
 features <- as.character(features$V2)
 
 X_test <- read.table(file="X_test.txt",header=F,sep="",) #Loading  X_test data
