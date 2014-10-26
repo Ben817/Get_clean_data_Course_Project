@@ -3,9 +3,9 @@ Codebook for Course Project
 
 The result of the *run_analysis.R* script is a file called FINAL.txt.The columns in this file are listed below.
 
-The column **Subject** contains the number of the person who the measurements are for.
+The column **Subject** contains the number of the person who the measurements are for. There are 30 different people that are the Subjects in this data set. Each person is indexed by a number from 1 to 30.
 
-The column **Activity** contains what activity that the person performed.
+The column **Activity** contains what activity that the person performed. The different activities are:WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING.
 
 The columns starting with **meanof_** contains the mean of the corresponding variable. For example for **meanof_fBodyBodyGyroJerkMag-std()** contains that mean of the parameter fBodyBodyGyroJerkMag-std() parameter.
 
